@@ -7,10 +7,11 @@ def enable_pin(user, pin):
     print('pin enabled')
 
 # Set current_user and pin to test values
-current_user = 'TEST123'
-pin = '123456'
+current_user = input('Informe o nome do usuario: ')
+pin = input('Informe a senha do usuario: ')
 
 # Enable PIN check as listed in
 # security requirements
 enable_pin(current_user, pin)
+
 
